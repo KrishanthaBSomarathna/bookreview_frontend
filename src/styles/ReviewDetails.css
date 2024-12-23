@@ -1,0 +1,51 @@
+/* ReviewDetails.css */
+.review-details-page {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.review-details-page h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.review-details-page h3 {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.review-details-page p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.delete-button {
+  background-color: #e53935;
+  color: white;
+}
+
+button {
+  background-color: #1976d2;
+  color: white;
+}

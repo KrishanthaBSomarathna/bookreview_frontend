@@ -1,0 +1,13 @@
+.home-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ensures responsive grid */
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .home-page {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusts grid for smaller screens */
+    }
+  }
+  

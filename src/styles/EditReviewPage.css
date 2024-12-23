@@ -1,0 +1,66 @@
+/* EditReviewPage.css */
+
+.edit-review-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-review-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .edit-review-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-review-page label {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .edit-review-page input[type="text"],
+  .edit-review-page textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .edit-review-page textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .edit-review-page button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .edit-review-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-review-page button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+  

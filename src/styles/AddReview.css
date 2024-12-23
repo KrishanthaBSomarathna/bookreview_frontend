@@ -1,0 +1,99 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f7fc;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Add Review Page Container */
+.add-review-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-review-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Review Form Styles */
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review-form input,
+.review-form textarea,
+.review-form button {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.review-form input:focus,
+.review-form textarea:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
+}
+
+.review-form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.review-form button {
+  background-color: #0056b3;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.review-form button:hover {
+  background-color: #00479e;
+}
+
+/* Success Message */
+.review-form .success-message {
+  font-size: 1.2rem;
+  color: #28a745;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .add-review-page {
+    padding: 20px;
+  }
+
+  .add-review-page h1 {
+    font-size: 2rem;
+  }
+
+  .review-form input,
+  .review-form textarea,
+  .review-form button {
+    font-size: 0.9rem;
+  }
+}

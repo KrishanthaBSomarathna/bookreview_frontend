@@ -1,0 +1,99 @@
+/* General Styling for the Add Review Page */
+.review-form {
+    background-color: #fff; /* White background for the form */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 500px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Adds spacing between form fields */
+  }
+  
+  .review-form h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Label Styling */
+  .review-form label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Input Fields Styling */
+  .review-form input,
+  .review-form textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    resize: vertical; /* Allows resizing for textarea */
+  }
+  
+  .review-form input:focus,
+  .review-form textarea:focus {
+    outline: none;
+    border-color: #f1c40f; /* Focus color */
+    box-shadow: 0 0 8px rgba(241, 196, 15, 0.5); /* Focus glow effect */
+  }
+  
+  .review-form textarea {
+    min-height: 150px; /* Larger textarea */
+  }
+  
+  /* Rating Input Styling */
+  .review-form input[type="number"] {
+    -moz-appearance: textfield; /* Removes the number input spinner in Firefox */
+    -webkit-appearance: none; /* Removes the number input spinner in Webkit browsers */
+  }
+  
+  .review-form input[type="number"]:focus {
+    border-color: #f1c40f;
+  }
+  
+  .review-form button {
+    padding: 0.8rem 1.5rem;
+    background-color: #f1c40f; /* Bright yellow */
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Center the button */
+    width: 100%; /* Make the button full width */
+  }
+  
+  .review-form button:hover {
+    background-color: #e0b10f; /* Darker yellow on hover */
+  }
+  
+  /* Responsive Design for Small Screens */
+  @media (max-width: 600px) {
+    .review-form {
+      padding: 1.5rem;
+      max-width: 90%; /* Makes the form smaller on small screens */
+    }
+  
+    .review-form h2 {
+      font-size: 1.5rem;
+    }
+  
+    .review-form input,
+    .review-form textarea {
+      font-size: 0.9rem;
+      padding: 0.7rem;
+    }
+  
+    .review-form button {
+      padding: 0.7rem 1.2rem;
+    }
+  }
+  
